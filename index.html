@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="bootstrap-3.3.7-dist/css/bootstrap.css" type ="text/css" rel
+        ="stylesheet"/>
+        <title>Portfolio</title>
+        <link href="index.css" type ="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.
+        min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstra
+        p.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:600&display=s
+        wap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto:300&d
+        isplay=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous&display=sw
+        ap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, mini
+        mum-scale=1, maximum-scale=1">
+    </head>
+    <body onLoad="window.scroll(0, 60)">
+      <div id="navbar" class= "opacity">
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="conctacts.html">Contact</a>
+        <div class="pull-right" style="padding-right: 50px;padding-top: -10px;">
+          <h3> Home </h3>
+        </div>
+      </div>
+      <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+      </script>
+      <section class="jumbotron" style="padding:15px 15px; margin-top:50px;">
+        <div style="width: 30%; color: black;">
+          <h1 style="    font-size: calc(200px + (300 - 200) * ((100vw - 320px
+            ) / (2540)));" class="right">
+            HAE
+          </h1>
+          <h1 style="    font-size: calc(200px + (300 - 200) * ((100vw - 320px
+            ) / (2540)));"class="right1">
+            CHAN
+          </h1>
+          <h1 style="    font-size: calc(200px + (300 - 200) * ((100vw - 320px
+            ) / (2340)));"class="right2">
+            PARK
+          </h1>
+        </div>
+        <center>
+          <div class = "opacity scroll">
+            <h3>
+              <img width="60px" height="40px" src="images/arrow.png"align= "middle" alt="scroll up">Scroll<img width="60px" height="40px" src="images/arrow.png"align= "middle" alt="scroll up">
+            </h3>
+          </div>
+        </center>
+      </section>
+    </body>
+</html>
