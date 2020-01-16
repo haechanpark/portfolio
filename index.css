@@ -46,10 +46,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1{
-  font-weight: 600;
-  font-family: 'Roboto', sans-serif;
-}
+
 
 #content{
   z-index:2;
@@ -69,38 +66,76 @@ h1{
 .opacity{animation:opac 4.0s}@keyframes opac{from{opacity:0}
 to{opacity:1}}
 
+.opacity1{animation:opac 2.0s}@keyframes opac{from{opacity:0}
+to{opacity:1}}
 
 .titles h2{
-  font-size: 60px;
-  font-weight: bold;
-  margin: 30px 30px 30px 30px;
+  font-size: 50px;
+  font-weight: bolder;
+  margin: 1vw 1vw 1vw 4.1vw;
+  padding-left: 1.5vw;
   font-family: 'Poppins', sans-serif;
-
-
+  color: black;
 }
-
+.titles1 h2{
+  font-size: 70px;
+  font-weight: bolder;
+  margin: 1vw 1vw 1vw 4.1vw;
+  padding-left: 5.3vw;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+.abouthome h2{
+  font-size: 50px;
+  font-weight: bold;
+  margin: 2vw 2vw 2vw 5.1vw;
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+  padding-left: 1.5vw;
+  font-family: 'Poppins', sans-serif;
+  color: #D3D3D3;
+}
 .containerbackground{
     background-color: white;
-    margin: 30px 30px 30px 30px;
-    font-size: 50px;
-    padding: 30px 30px 30px 30px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
     background:rgba(255,255,255,0.7);
+    font-weight: bold;
+    padding:2vw 2vw 2vw 2vw;
+    margin-left: 4.5vw;
+    margin-right: 4vw;
+
+}
+.containerbackground1{
+    background-color: white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    background:rgba(255,255,255,0.7);
+    font-weight: bold;
+    padding:2vw 5vw 2vw 5vw;
+    margin-left: 4.5vw;
+    margin-right: 4vw;
 
 }
 .scroll{
-    background-color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left:800px;
-    margin-right: 800px;
-    margin-top: -30px;
-    background:rgba(255,255,255,0.4);
+    padding-top: 0.1vw;
+    padding-bottom: 0.5vw;
+    margin-left:42vw;
+    margin-right: 42vw;
+    margin-top: -3vw;
+
+    margin-bottom: 5vw;
 
 }
 h3{
-  font-size: 30px;
+  font-size: 35px;
   color:black;
   font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.title h1 {
+  font-size: 13.9vw;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }

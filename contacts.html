@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="bootstrap-3.3.7-dist/css/bootstrap.css" type ="text/css" rel
+        ="stylesheet"/>
+        <title>Portfolio</title>
+        <link href="index.css" type ="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.
+        min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstra
+        p.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:600&display=s
+        wap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto:300&d
+        isplay=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous&display=sw
+        ap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, mini
+        mum-scale=1, maximum-scale=1">
+    </head>
+    <body>
+      <div id="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <div class="pull-right" style="padding-right: 50px;">
+          <h3> Contact </h3>
+        </div>
+      </div>
+      <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+      </script>
+      <section id="content"class="jumbotron" style="padding:15px 15px; margin-top:50px;">
+        <div class="titles1 opacity1" style="padding-top: 2vw;">
+          <h2>
+            Contact Information
+          </h2>
+        </div>
+        <section class="containerbackground1 opacity1"style="margin-bottom: 3vw;">
+        </section>
+      </section>
+    </body>
+</html>

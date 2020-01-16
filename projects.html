@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="bootstrap-3.3.7-dist/css/bootstrap.css" type ="text/css" rel
+        ="stylesheet"/>
+        <title>Portfolio</title>
+        <link href="index.css" type ="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.
+        min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstra
+        p.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:600&display=s
+        wap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto:300&d
+        isplay=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous&display=sw
+        ap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, mini
+        mum-scale=1, maximum-scale=1">
+    </head>
+    <body>
+      <div id="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="contacts.html">Contact</a>
+        <div class="pull-right" style="padding-right: 50px;">
+          <h3> Projects </h3>
+        </div>
+      </div>
+      <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+      </script>
+      <section id="content"class="jumbotron" style="padding:15px 15px; margin-top:50px;">
+        <div class="titles1 opacity1" style="padding-top: 2vw;">
+          <h2>
+            My career.
+          </h2>
+        </div>
+        <section class="containerbackground1 opacity1"style="margin-bottom: 3vw;">
+          As of right now, I am just a student at Dublin High School in the 11th grade, however, I plan on expanding my knowledge in the computer science and engineering fields during high school as well. But you cannot be just an engineer and only know engineering. Therefore, I took numerous rigorous courses to challenge my abilities to manage workload including AP European History, AP Chemistry, Honors Principles of Engineering, and more. As of right now, I am taking AP U.S History, AP Calculus AB, AP Computer Science A, AP Spanish Language, AP Environmental Science, and Honors English.
+        </section>
+        <div class="titles1 opacity1">
+          <h2>
+            What I do.
+          </h2>
+        </div>
+        <section class="containerbackground1 opacity1" style="margin-bottom: 8vw;">
+          I am a student and a prospective programmer who is enrolled in a variety of classes that correlate with my interests. For example, I took Computer Science Principles as a freshmen, Principles of Engineering as a sophomore (a class that I loved), and AP Computer Science Applications currently. I also involve myself in other stuff such as the Envirotech club and the Robotics club, both of which help grow my knowledge in engineering. For fun, I actively play tennis and also practice the violin.
+        </section>
+      </section>
+    </body>
+</html>

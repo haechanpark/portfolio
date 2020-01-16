@@ -18,13 +18,15 @@
         ap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1, mini
         mum-scale=1, maximum-scale=1">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
-    <body onLoad="window.scroll(0, 60)">
+    <body onLoad="window.scroll(0, 40)">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <div id="navbar" class= "opacity">
         <a href="about.html">About</a>
         <a href="resume.html">Resume</a>
         <a href="projects.html">Projects</a>
-        <a href="conctacts.html">Contact</a>
+        <a href="contacts.html">Contact</a>
         <div class="pull-right" style="padding-right: 50px;padding-top: -10px;">
           <h3> Home </h3>
         </div>
@@ -41,28 +43,40 @@
         prevScrollpos = currentScrollPos;
       }
       </script>
+      <script>
+        AOS.init();
+      </script>
       <section class="jumbotron" style="padding:15px 15px; margin-top:50px;">
-        <div style="width: 30%; color: black;">
-          <h1 style="    font-size: calc(200px + (300 - 200) * ((100vw - 320px
-            ) / (2540)));" class="right">
+        <div style="width: 30%;color: black;" class="title">
+          <h1 class="right">
             HAE
           </h1>
-          <h1 style="    font-size: calc(200px + (300 - 200) * ((100vw - 320px
-            ) / (2540)));"class="right1">
+          <h1 class="right1">
             CHAN
           </h1>
-          <h1 style="    font-size: calc(200px + (300 - 200) * ((100vw - 320px
-            ) / (2340)));"class="right2">
+          <h1 class="right2">
             PARK
           </h1>
         </div>
         <center>
+          <!--
           <div class = "opacity scroll">
             <h3>
-              <img width="60px" height="40px" src="images/arrow.png"align= "middle" alt="scroll up">Scroll<img width="60px" height="40px" src="images/arrow.png"align= "middle" alt="scroll up">
+              Scroll
             </h3>
           </div>
+        -->
         </center>
+      </section>
+      <div class="abouthome" style="width: 90%;" data-aos="fade-left">
+        <h2>
+          A brief introduction.
+        </h2>
+      </div>
+      <section class="containerbackground" style="width: 90%;margin-bottom:8vw;"data-aos="fade-left">
+        Hello, I am Hae Chan Park! I am more commonly known as Kevin Park, and I have an interest in Computer Science and Law.  Currently, I am in the 11th grade, my junior year of Dublin High School. I participate in Robotics, specifically
+        Gael Force Robotics on team 5327Z, practice the violin on my free time, and also play tennis for the Dublin High School team and have been playing for them since my freshmen year on the Junior Varsity team. If you want to know more about what I do
+        feel free to look around my portfolio!
       </section>
     </body>
 </html>
