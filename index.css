@@ -78,7 +78,7 @@ to{opacity:1}}
   color: black;
 }
 .titles1 h2{
-  font-size: 70px;
+  font-size: 3.5vw;
   font-weight: bolder;
   margin: 1vw 1vw 1vw 4.1vw;
   padding-left: 5.3vw;
@@ -86,7 +86,7 @@ to{opacity:1}}
   color: black;
 }
 .abouthome h2{
-  font-size: 50px;
+  font-size: 2.7vw;
   font-weight: bold;
   margin: 2vw 2vw 2vw 5.1vw;
   padding-top: 2vw;
@@ -97,7 +97,7 @@ to{opacity:1}}
 }
 .containerbackground{
     background-color: white;
-    font-size: 30px;
+    font-size: 1.6vw;
     font-family: 'Roboto', sans-serif;
     background:rgba(255,255,255,0.7);
     font-weight: bold;
@@ -108,7 +108,7 @@ to{opacity:1}}
 }
 .containerbackground1{
     background-color: white;
-    font-size: 30px;
+    font-size: 1.6vw;
     font-family: 'Roboto', sans-serif;
     background:rgba(255,255,255,0.7);
     font-weight: bold;
@@ -138,4 +138,40 @@ h3{
   font-size: 13.9vw;
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
+}
+
+.footerbackground{
+    background-color: black;
+    padding:2vw 2vw 2vw 2vw;
+    margin-left: 4.5vw;
+    margin-right: 4vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3vw;
+    color: gray
+
+}
+
+img{
+  opacity: 0.8;
+}
+.down-arrow {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid black;
+    padding-bottom: 10vh;
+    color:black;
+    display: block;
+    transition: opacity 0.5s;
+    animation: bounce 2.5s infinite;
+}
+.content {
+    flex: 1;
+}
+.sectionheader {
+    background: rgba(255,255,255,0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
