@@ -118,6 +118,16 @@ to{opacity:1}}
     margin-right: 4vw;
 
 }
+.containerbackground1 h3{
+    font-size: 1.6vw;
+    font-family: 'Roboto', sans-serif;
+
+}
+.containerbackground1 h2{
+  font-size: 2.5vw;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
 .scroll{
     padding-top: 0.1vw;
     padding-bottom: 0.5vw;
@@ -128,12 +138,7 @@ to{opacity:1}}
     margin-bottom: 5vw;
 
 }
-h3{
-  font-size: 35px;
-  color:black;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-}
+
 
 .title h1 {
   font-size: 13.9vw;
@@ -175,4 +180,19 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.w3-container{
+  font-size: 1vw;
+  font-family: 'Poppins', sans-serif;
+}
+.containerbackground1 a{
+  text-decoration: underline;
+  color:black;
+
+
+}
+.containerbackground1 a:hover{
+  text-decoration: none;
+
+
 }
